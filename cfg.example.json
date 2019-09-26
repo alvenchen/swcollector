@@ -14,7 +14,7 @@
  		"pingTimeout":300,
 		"pingRetry":4,
 		"community":"123456",
-		"snmpTimeout":1000,
+		"snmpTimeout":1000,//sw中snmp的timeout粒度为秒，不是毫秒，有冲突，要注意修改
 		"snmpRetry":5,
 		"ignoreIface": ["Nu","NU","Vlan","Vl"],
 		"ignoreOperStatus": true,
